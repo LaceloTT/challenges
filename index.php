@@ -8,7 +8,7 @@ if( $page === '/img.png' ){
   //Return a 1x1 png file
   echo base64_decode("iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=");
   exit();
-}elseif( $page === 'https://rlfrqunoqujerhcxqrysfk50i513lebgs.oast.fun/log' ){
+}elseif( $page === 'https://d8i314zt78tsga159fsg5ww3dbtme6d24.oast.site/log' ){
   //save the Referrer to log.txt
   file_put_contents('log.txt', $_SERVER["HTTP_REFERER"]."\n" , FILE_APPEND  );
   echo "OK"; 
